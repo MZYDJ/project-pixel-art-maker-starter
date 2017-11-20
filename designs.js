@@ -23,4 +23,8 @@ $('#sizePicker').bind('submit',function(){
 	return false;
 });
 
-console.log($('#input_height').val())
+$('#pixel_canvas').on('click','td',function(){
+	$(this).css("background",$('#colorPicker').val())
+})
+
+// console.log($('#input_height').val())
