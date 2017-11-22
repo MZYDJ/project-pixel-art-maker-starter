@@ -10,10 +10,10 @@ function makeGrid() {
 	// console.log(gridHeight);
 	$('table').empty();
 	for(;gridHeight>0;gridHeight--){
-		$('table').append(`<tr class='${gridHeight}'></tr>`);
-		for(let i=gridWidth;i>0;i--){
-			$('tr').eq(-1).append(`<td class='${gridHeight}_${i}'></td>`);
-		}
+		$('table').prepend(`<tr class='${gridHeight}'></tr>`);
+	}
+	for(let i=gridWidth;i>0;i--){
+		$('tr').prepend(`<td class='${i}'></td>`);
 	}
 }
 
