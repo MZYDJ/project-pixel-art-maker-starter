@@ -1,16 +1,16 @@
-# Pixel Art Maker Project
+# 像素艺术
 
-## Table of Contents
+## 目录
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [说明](#说明)
+* [说明](#说明)
 
-## Instructions
+## 说明
 
-To get started, open `designs.js` and start building out the app's functionality.
+输入想要的画布大小，最大支持100x100大小，点击提交绘制画布，选择需要的颜色之后点击画布需要涂色的方块。
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+所有交互功能代码位于`designs.js` 文件，样式代码位于`styles.css`文件。
 
-## Contributing
+## 说明
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+相关授权信息请查看[LICENSE.txt](/LICENSE.txt)
